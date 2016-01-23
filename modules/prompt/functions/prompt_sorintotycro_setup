@@ -84,7 +84,7 @@ function prompt_sorintotycro_precmd {
 	python-info
 
   # Define prompts.
-  RPROMPT='${editor_info[overwrite]}%(?:: %F{1}⏎%f)${VIM:+" %B%F{6}V%f%b"} %F{3}%D{%H:%M}%f'
+  RPROMPT='${editor_info[overwrite]}%(?:: %F{1}[%?]%f)${VIM:+" %B%F{6}V%f%b"} %F{3}%D{%H:%M}%f'
 
   # Kill the old process of slow commands if it is still running.
   if (( _prompt_sorintotycro_precmd_async_pid > 0 )); then
@@ -138,7 +138,7 @@ function prompt_sorintotycro_setup {
 	zstyle ':prezto:module:python:info:virtualenv' format '(%v) '
 
   # Define prompts.
-  PROMPT='${SSH_TTY:+"%F{9}%n%f%F{7}@%f%F{3}%m%f"}%F{4}$python_info[virtualenv]%f%(?..%B%F{1}[%?]%f%b)%(!. %B%F{1}#%f%b.)${editor_info[keymap]} '
+  PROMPT='${SSH_TTY:+"%F{9}%n%f%F{7}@%f%F{3}%m%f"}%F{4}$python_info[virtualenv]%f%(?..%B%F{1}:( %f%b)%(!. %B%F{1}#%f%b.)${editor_info[keymap]} '
   RPROMPT=''
 	SPROMPT='%F{1}%R%f - WTF???? : %F{2}%r%f '
 }
