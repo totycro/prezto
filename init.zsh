@@ -111,3 +111,7 @@ unset zfunction{s,}
 zstyle -a ':prezto:load' pmodule 'pmodules'
 pmodload "$pmodules[@]"
 unset pmodules
+
+
+# custom
+source ~/.zprezto/custom/zsh-autosuggestions/zsh-autosuggestions.zsh
