@@ -46,8 +46,8 @@ alias ftp='noglob ftp'
 alias history='noglob history'
 alias locate='noglob locate'
 alias rake='noglob rake'
-alias rsync='noglob rsync'
-alias scp='noglob scp'
+#alias rsync='noglob rsync'
+#alias scp='noglob scp'
 alias sftp='noglob sftp'
 
 # Define general aliases.
@@ -180,8 +180,8 @@ fi
 unset _download_helper{,s}
 
 # Resource Usage
-alias df='df -kh'
-alias du='du -kh'
+#alias df='df -kh'
+#alias du='du -kh'
 
 if is-darwin || is-bsd; then
   alias topc='top -o cpu'
