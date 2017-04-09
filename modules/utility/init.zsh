@@ -41,8 +41,8 @@ alias ftp='noglob ftp'
 alias history='noglob history'
 alias locate='noglob locate'
 alias rake='noglob rake'
-alias rsync='noglob rsync'
-alias scp='noglob scp'
+#alias rsync='noglob rsync'
+#alias scp='noglob scp'
 alias sftp='noglob sftp'
 
 # Define general aliases.
@@ -140,8 +140,8 @@ elif (( $+commands[wget] )); then
 fi
 
 # Resource Usage
-alias df='df -kh'
-alias du='du -kh'
+#alias df='df -kh'
+#alias du='du -kh'
 
 if (( $+commands[htop] )); then
   alias top=htop
