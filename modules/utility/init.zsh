@@ -140,8 +140,8 @@ elif (( $+commands[wget] )); then
 fi
 
 # Resource Usage
-#alias df='df -kh'
-#alias du='du -kh'
+alias df='df -k'
+alias du='du -k'
 
 if (( $+commands[htop] )); then
   alias top=htop

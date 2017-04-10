@@ -140,7 +140,7 @@ function prompt_sorintotycro_setup {
   # Define prompts.
   PROMPT='${SSH_TTY:+"%F{9}%n%f%F{7}@%f%F{3}%m%f"}%F{4}$python_info[virtualenv]%f%(?..%B%F{1}:/ %f%b)%(!. %B%F{1}#%f%b.)${editor_info[keymap]} '
   RPROMPT=''
-	SPROMPT='%F{1}%R%f - WTF???? : %F{2}%r%f '
+  SPROMPT='%F{1}%R%f - WTF???? : %F{2}%r%f '
 }
 
 function prompt_sorintotycro_preview {
