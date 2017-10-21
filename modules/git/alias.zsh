@@ -273,3 +273,12 @@ if ! zstyle -t ':prezto:module:git:alias' skip; then
   alias gwx='git rm -r'
   alias gwX='git rm -r --force'
 fi
+
+
+# my aliases
+alias gbr='git branch'
+alias gci='git commit --verbose'
+alias gco='git checkout'
+alias gpu='git push'
+alias gpl='git pull'
+
