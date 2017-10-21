@@ -31,6 +31,7 @@ zstyle -s ':prezto:module:git:status:ignore' submodules '_git_status_ignore_subm
 #
 ## Branch (b)
 #alias gb='git branch'
+alias gbr='git branch'
 #alias gbc='git checkout -b'
 #alias gbl='git branch -v'
 #alias gbL='git branch -av'
@@ -43,9 +44,10 @@ zstyle -s ':prezto:module:git:status:ignore' submodules '_git_status_ignore_subm
 #
 ## Commit (c)
 #alias gc='git commit --verbose'
+alias gci='git commit --verbose'
 #alias gca='git commit --verbose --all'
 #alias gcm='git commit --message'
-#alias gco='git checkout'
+alias gco='git checkout'
 #alias gcO='git checkout --patch'
 #alias gcf='git commit --amend --reuse-message HEAD'
 #alias gcF='git commit --verbose --amend'
@@ -117,6 +119,7 @@ zstyle -s ':prezto:module:git:status:ignore' submodules '_git_status_ignore_subm
 #
 ## Push (p)
 #alias gp='git push'
+alias gpu='git push'
 #alias gpf='git push --force'
 #alias gpa='git push --all'
 #alias gpA='git push --all && git push --tags'
