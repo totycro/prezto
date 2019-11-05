@@ -29,3 +29,6 @@
 	path = modules/prompt/external/powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k.git
 	shallow = true
+[submodule "custom/zsh-autosuggestions"]
+	path = custom/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
