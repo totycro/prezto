@@ -281,4 +281,5 @@ alias gci='git commit --verbose'
 alias gco='git checkout'
 alias gpu='git push'
 alias gpl='git pull'
+alias gsw='git switch'
 
