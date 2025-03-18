@@ -29,3 +29,6 @@
 [submodule "custom/zsh-autosuggestions"]
 	path = custom/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "custom/fzf"]
+	path = contrib/fzf
+	url = https://github.com/gpanders/fzf-prezto.git
